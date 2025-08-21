@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyApplication2</string>
+    <string name="rent_a_car">RENT A CAR</string>
+    <string name="name">Name</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="view">VIEW</string>
+    <string name="view2">VIEW</string>
+    <string name="view3">VIEW</string>
+    <string name="view4">VIEW</string>
+    <string name="VIEW7">VIEW</string>
+    <string name="view9">VIEW</string>
+    <string name="bugatti">Bugatti</string>
+    <string name="view1">View</string>
+    <string name="ferrari">FERRARI</string>
+    <string name="view7">View</string>
+    <string name="g_wagon">G-WAGON</string>
+    <string name="view8">View</string>
+    <string name="lambo">LAMBO</string>
+    <string name="view11">View</string>
+    <string name="rolls_royce">ROLLS-ROYCE</string>
+    <string name="view12">View</string>
+    <string name="mercedes">MERCEDES</string>
+    <string name="view13">View</string>
+    <string name="chevrolet">CHEVROLET</string>
+    <string name="bmw">BMW</string>
+    <string name="toyota">TOYOTA</string>
+    <string name="mclaren">MCLAREN</string>
+    <string name="view17">View</string>
+    <string name="view18">View</string>
+    <string name="view19">View</string>
+    <string name="view20">View</string>
+    <string name="buggati1">BUGGATI</string>
+</resources>

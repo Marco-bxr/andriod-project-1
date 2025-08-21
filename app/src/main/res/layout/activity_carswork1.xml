@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EFEC"
+    android:verticalScrollbarPosition="left"
+    tools:context=".CARSWORK1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFEEEC"
+            android:gravity="center"
+            android:padding="29dp"
+            android:text="@string/rent_a_car"
+            android:textColor="#161515"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/name">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="271dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="30dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:hint="@string/phone_number">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="100dp">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="76dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="400dp"
+                            android:layout_height="300dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bmw"
+                            tools:ignore="ContentDescription" />
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:backgroundTint="#0B0504"
+                            android:text="PAY NOW" />
+
+                    </FrameLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="100dp">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/mc"
+                        tools:ignore="ContentDescription" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:backgroundTint="#0B0504"
+                        android:text="PAY NOW" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="100dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/g"
+                        tools:ignore="ContentDescription" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:backgroundTint="#0B0504"
+                        android:text="PAY NOW" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="100dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/lambo"
+                        tools:ignore="ContentDescription" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:backgroundTint="#0B0504"
+                        android:text="PAY NOW" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="100dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/f"
+                        tools:ignore="ContentDescription" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:backgroundTint="#0B0504"
+                        android:text="PAY NOW" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="580dp"
+                        android:text="BACK" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
